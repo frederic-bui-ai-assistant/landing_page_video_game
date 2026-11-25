@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lucia &amp; Jason — Dossier de fans sur les héros de GTA VI</title>
+  <meta name="description" content="Dossier de fans, non officiel, sur Lucia et Jason, les deux personnages principaux de GTA VI : histoire, traits de caractère et parcours commun, d'après les informations publiques.">
+  <meta name="theme-color" content="#0d0221">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230d0221'/%3E%3Ccircle cx='32' cy='30' r='18' fill='%23ff2e97'/%3E%3Crect x='10' y='34' width='44' height='4' fill='%230d0221'/%3E%3Crect x='10' y='42' width='44' height='6' fill='%230d0221'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenu">Aller au contenu</a>
+
+  <!-- Décor néon : purement décoratif -->
+  <div class="bg" aria-hidden="true">
+    <div class="bg__sun"></div>
+    <div class="bg__grid"></div>
+  </div>
+
+  <header class="site-header">
+    <a class="brand" href="#accueil" aria-label="Lucia et Jason, retour à l'accueil">
+      <span class="brand__a">Lucia</span><span class="brand__amp" aria-hidden="true">&amp;</span><span class="brand__b">Jason</span>
+    </a>
+    <nav aria-label="Navigation principale">
+      <ul class="nav">
+        <li><a href="#accueil" data-nav="accueil">Accueil</a></li>
+        <li><a href="#lucia" data-nav="lucia">Lucia</a></li>
+        <li><a href="#jason" data-nav="jason">Jason</a></li>
+        <li><a href="#histoire" data-nav="histoire">Histoire commune</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="contenu" tabindex="-1">
+    <noscript>
+      <p class="notice">Ce site a besoin de JavaScript pour afficher les fiches des personnages.</p>
+    </noscript>
+
+    <!-- Vue : accueil -->
+    <section id="vue-accueil" class="view" aria-labelledby="titre-accueil">
+      <div class="panel hero">
+        <p class="kicker" id="accueil-kicker">Leonida · Vice City</p>
+        <h1 id="titre-accueil">Lucia &amp; Jason</h1>
+        <p class="lead" id="accueil-intro">Chargement du dossier…</p>
+        <p class="status-line" id="accueil-statut"></p>
+      </div>
+
+      <h2 class="visually-hidden">Choisir un personnage</h2>
+      <ul class="cards" id="cartes"></ul>
+
+      <p class="center">
+        <a class="btn btn--ghost" id="accueil-histoire" href="#histoire">Voir leur histoire commune</a>
+      </p>
+      <div id="legende" class="legend panel"></div>
+    </section>
+
+    <!-- Vue : fiche d'un personnage (remplie par script.js) -->
+    <section id="vue-fiche" class="view" aria-labelledby="titre-fiche" hidden></section>
+
+    <!-- Vue : histoire commune (remplie par script.js) -->
+    <section id="vue-histoire" class="view" aria-labelledby="titre-histoire" hidden></section>
+
+    <div id="erreur" class="notice notice--error" role="alert" hidden></div>
+  </main>
+
+  <footer class="site-footer">
+    <p id="pied-avertissement"></p>
+    <p id="pied-perimetre"></p>
+    <p id="pied-verification"></p>
+    <details class="sources">
+      <summary>Sources consultées</summary>
+      <ul id="sources"></ul>
+    </details>
+  </footer>
+</body>
+</html>

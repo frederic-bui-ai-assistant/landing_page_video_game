@@ -1,0 +1,305 @@
+{
+  "site": {
+    "titre": "Lucia & Jason",
+    "baseline": "Dossier de fans sur les deux héros de GTA VI",
+    "avertissement": "Site de fans, non officiel. Il n'est ni affilié, ni approuvé par Rockstar Games ou Take-Two Interactive. Tous les textes et illustrations sont originaux. Grand Theft Auto est une marque de ses propriétaires.",
+    "verification": "25 novembre 2026",
+    "perimetre": "Ce dossier s'appuie uniquement sur des informations publiques : les deux trailers, le site officiel et les fiches publiées par Rockstar, relayés par la presse spécialisée. Il ne raconte pas le scénario complet du jeu. Toute information qui n'est pas établie par ces sources est signalée « non confirmée »."
+  },
+
+  "legende": {
+    "confirme": "Confirmé",
+    "confirmeAide": "Présent dans les trailers ou les contenus officiels de Rockstar.",
+    "nonConfirme": "Non confirmé",
+    "nonConfirmeAide": "Source secondaire, sources divergentes ou information absente des contenus officiels."
+  },
+
+  "accueil": {
+    "kicker": "Leonida · Vice City",
+    "titre": "Lucia & Jason",
+    "intro": "Deux trajectoires cabossées, un État baigné de néons et un coup facile qui tourne mal. Choisis un dossier pour découvrir l'un des deux héros de GTA VI.",
+    "boutonHistoire": "Voir leur histoire commune",
+    "statutJeu": "Le jeu est sorti le 19 novembre 2026 sur PlayStation 5 et Xbox Series X|S (d'après le site officiel de Rockstar)."
+  },
+
+  "personnages": [
+    {
+      "id": "lucia",
+      "numero": "01",
+      "nom": "Lucia",
+      "nomComplet": "Lucia Caminos",
+      "accroche": "Une combattante qui a payé cher la loyauté envers les siens, et qui compte bien reprendre sa vie en main.",
+      "couleurs": { "a": "#ff2e97", "b": "#ff9a3c" },
+      "portrait": {
+        "fond": ["#2a0845", "#c2185b"],
+        "peau": "#c98a63",
+        "cheveux": "#1a0a2e",
+        "haut": "#ff2e97",
+        "coiffure": "longue",
+        "accessoire": "casque",
+        "description": "Illustration originale et stylisée d'une silhouette féminine aux longs cheveux sombres, un casque audio sur la tête, devant un soleil néon rose et orange."
+      },
+      "resume": {
+        "origines": [
+          {
+            "texte": "Son père lui a appris à se battre très tôt : la bagarre fait partie de son éducation, pas seulement de sa réputation.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Sa mère rêve d'une belle vie depuis l'époque où la famille vivait à Liberty City. Lucia, elle, ne compte pas se contenter de rêver.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Âge, ville de naissance et composition exacte de sa famille.",
+            "statut": "non confirmé"
+          }
+        ],
+        "parcours": [
+          {
+            "texte": "En se battant pour sa famille, elle a fini au pénitencier de Leonida.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Un coup de chance lui rend la liberté. Les trailers la montrent à sa sortie de prison, accueillie par Jason.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Durée de sa peine, nature précise des faits qui lui sont reprochés et passé commun avec Jason avant l'incarcération.",
+            "statut": "non confirmé"
+          }
+        ],
+        "role": [
+          {
+            "texte": "Elle est l'un des deux personnages jouables du jeu, aux côtés de Jason. Une héroïne principale, c'est une première pour la série numérotée.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Fraîchement libérée, elle cherche à rebattre les cartes en sa faveur, et une vie avec Jason pourrait être sa porte de sortie.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "L'identité de son actrice vocale : un article la nomme, mais la presse indique qu'elle n'est pas officiellement confirmée.",
+            "statut": "non confirmé"
+          }
+        ]
+      },
+      "traits": [
+        {
+          "nom": "Combative",
+          "description": "Elle a dû gagner chaque once de respect à la force de son caractère et de ses poings."
+        },
+        {
+          "nom": "Loyale envers sa famille",
+          "description": "C'est pour les siens qu'elle s'est retrouvée derrière les barreaux."
+        },
+        {
+          "nom": "Pragmatique et méfiante",
+          "description": "Sa philosophie tient en une idée : ce qui compte, ce sont les bonnes relations et ce que l'on possède."
+        },
+        {
+          "nom": "Ambitieuse",
+          "description": "Elle vise une vie confortable, pas seulement la survie au jour le jour."
+        }
+      ],
+      "citations": [
+        {
+          "texte": "Dans ce monde, ce n'est pas le mérite qui ouvre les portes : c'est le carnet d'adresses et le contenu des poches.",
+          "contexte": "Paraphrase de l'état d'esprit que Rockstar prête à Lucia dans sa présentation officielle."
+        },
+        {
+          "texte": "Le respect, personne ne me l'a jamais offert. Je suis allée le chercher, un coup après l'autre.",
+          "contexte": "Paraphrase de l'idée développée dans sa fiche officielle."
+        },
+        {
+          "texte": "Maman rêvait de grand soleil et de belle vie. Moi, je compte bien aller les chercher.",
+          "contexte": "Paraphrase inspirée de la description officielle de ses ambitions."
+        }
+      ],
+      "incertitudes": [
+        "Son passé exact avant la prison reste volontairement flou dans les contenus officiels.",
+        "Les détails de la relation avec Jason avant l'incarcération ne sont pas documentés officiellement."
+      ],
+      "suivant": "jason"
+    },
+
+    {
+      "id": "jason",
+      "numero": "02",
+      "nom": "Jason",
+      "nomComplet": "Jason Duval",
+      "accroche": "Un ancien soldat qui rêve de tranquillité, mais que la vie ramène toujours vers les mauvais coups.",
+      "couleurs": { "a": "#ff9a3c", "b": "#7b2ff7" },
+      "portrait": {
+        "fond": ["#1b0b4a", "#ff7a3d"],
+        "peau": "#e0ac85",
+        "cheveux": "#3b2314",
+        "haut": "#2de2e6",
+        "coiffure": "courte",
+        "accessoire": "lunettes",
+        "description": "Illustration originale et stylisée d'une silhouette masculine aux cheveux courts, portant des lunettes de soleil, devant un soleil néon orange et violet."
+      },
+      "resume": {
+        "origines": [
+          {
+            "texte": "Jason est un ancien militaire : Rockstar le présente comme un vétéran de l'armée.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Son enfance : certaines sources évoquent un foyer difficile, d'autres une jeunesse dans les rues de Vice City. Les versions divergent.",
+            "statut": "non confirmé"
+          },
+          {
+            "texte": "Âge, branche et durée de service militaire.",
+            "statut": "non confirmé"
+          }
+        ],
+        "parcours": [
+          {
+            "texte": "Il travaille dans les Keys pour des trafiquants locaux, mais il voudrait tenter quelque chose de nouveau.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Son patron est Brian Heder, qui dirige un trafic avec sa femme Lori. Cal Hampton fait partie de son entourage.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Les trailers le montrent venant chercher Lucia à sa sortie de prison, puis participant avec elle à un braquage de magasin.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "La manière dont il est entré dans le milieu après l'armée.",
+            "statut": "non confirmé"
+          }
+        ],
+        "role": [
+          {
+            "texte": "Il est le second personnage jouable, partenaire de Lucia dans le crime comme dans la vie, d'après les trailers.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "Il espère une vie plus calme, mais sa rencontre avec Lucia pourrait être la meilleure ou la pire chose qui lui arrive : il ne le sait pas lui-même.",
+            "statut": "confirmé"
+          },
+          {
+            "texte": "La répartition précise des moments où l'on joue l'un ou l'autre : un article la décrit, mais nous ne l'avons pas vérifiée auprès de Rockstar.",
+            "statut": "non confirmé"
+          },
+          {
+            "texte": "L'identité de son acteur vocal : mentionnée par un article, non vérifiée auprès de Rockstar.",
+            "statut": "non confirmé"
+          }
+        ]
+      },
+      "traits": [
+        {
+          "nom": "Rêveur lucide",
+          "description": "Il aimerait une vie facile, tout en sachant que rien ne l'est jamais vraiment."
+        },
+        {
+          "nom": "Pragmatique",
+          "description": "Il fait ce qu'il faut pour gagner sa vie, même quand le travail est douteux."
+        },
+        {
+          "nom": "Marqué par l'armée",
+          "description": "Son passage sous l'uniforme a laissé des traces, sans l'avoir mis sur la bonne voie."
+        },
+        {
+          "nom": "Partagé face à Lucia",
+          "description": "Il ignore s'il tient là sa chance ou sa perte, et cette incertitude l'accompagne."
+        }
+      ],
+      "citations": [
+        {
+          "texte": "Tout ce que je demande, c'est une vie tranquille. Le monde, lui, ne semble pas d'accord.",
+          "contexte": "Paraphrase du ton de sa présentation officielle."
+        },
+        {
+          "texte": "Elle sera peut-être ce qui m'arrive de mieux, ou de pire. Impossible de le savoir encore.",
+          "contexte": "Paraphrase de la description officielle de sa rencontre avec Lucia."
+        },
+        {
+          "texte": "J'ai quitté l'uniforme. Il est temps d'essayer autre chose.",
+          "contexte": "Paraphrase de son envie de changement évoquée officiellement."
+        }
+      ],
+      "incertitudes": [
+        "Le détail de son passé militaire n'est pas précisé dans les contenus officiels.",
+        "Les origines de son enfance font l'objet de versions différentes selon les sources."
+      ],
+      "suivant": "lucia"
+    }
+  ],
+
+  "histoireCommune": {
+    "titre": "Leur histoire commune",
+    "intro": "Voici ce que l'on sait publiquement de leur duo, sans dévoiler le scénario complet. Chaque étape indique son niveau de confirmation.",
+    "etapes": [
+      {
+        "titre": "Deux vies qui se croisent",
+        "texte": "Lucia purge une peine au pénitencier de Leonida. Jason, lui, travaille aux Keys pour des trafiquants locaux en rêvant de mieux.",
+        "statut": "confirmé"
+      },
+      {
+        "titre": "La sortie de prison",
+        "texte": "Un coup de chance libère Lucia. Dans le second trailer, Jason est celui qui vient la chercher.",
+        "statut": "confirmé"
+      },
+      {
+        "titre": "Premiers coups à deux",
+        "texte": "Les trailers les montrent en train de braquer un magasin, puis de trinquer à leurs nouveaux départs.",
+        "statut": "confirmé"
+      },
+      {
+        "titre": "Le coup facile qui dérape",
+        "texte": "Selon le synopsis officiel, un travail censé être simple tourne mal et les plonge dans le côté le plus sombre d'un endroit très ensoleillé.",
+        "statut": "confirmé"
+      },
+      {
+        "titre": "Une conspiration à l'échelle de l'État",
+        "texte": "Ils se retrouvent pris dans un réseau criminel qui s'étend sur tout l'État de Leonida, et doivent compter l'un sur l'autre pour s'en sortir.",
+        "statut": "confirmé"
+      },
+      {
+        "titre": "Un duo « à la Bonnie et Clyde »",
+        "texte": "Cette comparaison revient souvent dans la presse. C'est une lecture de journalistes, pas une formule de Rockstar.",
+        "statut": "non confirmé"
+      },
+      {
+        "titre": "Leur rencontre d'origine",
+        "texte": "Comment, quand et où ils se sont connus avant la prison : aucune source officielle ne le dit.",
+        "statut": "non confirmé"
+      }
+    ],
+    "incertitudes": [
+      "La nature exacte de leur relation avant l'incarcération de Lucia.",
+      "Le déroulé détaillé de l'intrigue : nous le laissons volontairement de côté."
+    ]
+  },
+
+  "sources": [
+    {
+      "titre": "Site officiel de Rockstar Games — Grand Theft Auto VI",
+      "url": "https://www.rockstargames.com/VI"
+    },
+    {
+      "titre": "Game Informer — Rockstar détaille les personnages de GTA VI (mai 2025)",
+      "url": "https://www.gameinformer.com/2025/05/06/rockstar-details-9-of-grand-theft-auto-vi-presumably-many-many-characters"
+    },
+    {
+      "titre": "Video Games Chronicle — Le deuxième trailer de GTA VI",
+      "url": "https://www.videogameschronicle.com/news/rockstar-has-released-a-new-grand-theft-auto-6-trailer/"
+    },
+    {
+      "titre": "GamesRadar — Trailer 2 : Lucia et Jason sous les projecteurs",
+      "url": "https://www.gamesradar.com/games/grand-theft-auto/gta-6-trailer-2-drops-out-of-nowhere-putting-lucia-and-jason-in-the-spotlight-once-again"
+    },
+    {
+      "titre": "PC Gamer — Les personnages de GTA VI (source secondaire)",
+      "url": "https://pcgamer.com/games/action/grand-theft-auto/gta6-characters"
+    },
+    {
+      "titre": "Red Bull — Lucia dans GTA VI : histoire, personnalité et rôle",
+      "url": "https://www.redbull.com/us-en/gta-6-lucia-caminos"
+    }
+  ]
+}
